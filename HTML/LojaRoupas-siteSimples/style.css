@@ -1,0 +1,184 @@
+
+<style>
+body{
+	background-color: #fff3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: #fff3f3;
+    font: 16 "calibri";
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+}
+
+.search {
+    width: 250px;
+    position: relative;
+}
+
+.input_search {
+    width: 100%;
+}
+
+.button_submit {
+    background-color: #FFF;
+    border-width: 1.7px;
+    width: 10%;
+    position: absolute
+}
+
+.item_img {
+    margin-left: -150px;
+}
+
+.wishlist_coração:hover {
+    transform: scale(1.3);
+}
+
+.coracao {
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu{
+    margin: 0;
+    padding: 10px;
+    background-color: #f48ca7;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: Space-evenly;
+    list-style:none;
+}
+
+.menu li{
+    position:relative; 
+    float:left;     
+}
+
+.menu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 40;
+    color:#fff3f3;
+    text-decoration:none;
+    padding: 10px;   
+    display:block;
+}
+
+.menu li a:hover{
+    background:#fff3f3; 
+    color: #f48ca7; 
+}
+
+.menu li ul{
+    position:absolute;
+    top:38px;
+    left:0;
+    background-color:#f48ca7;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    display:block;
+    width:250px;
+}
+.banners {
+    margin: 0;
+    padding: 0;
+}
+
+.banners li {
+    list-style: none;
+}
+
+.img_banner {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #f48ca7;
+    font-family: serif, sans-serif, monospace;
+    font-weight: bold;
+}
+
+.destaque {
+    margin: 0;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.destaque li {
+    color: #333131;
+    font-family: serif, sans-serif, monospace;
+    list-style-type: none;
+    text-align: center;
+}
+
+.destaque li:hover {
+    transform: scale(1.05);
+}
+
+a:link {
+    color: #858585;
+    font-family: serif, sans-serif, monospace;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid;
+    border-color: #f48ca7
+}
+
+.footer {
+    background-color: #ffd6d6;
+}
+
+.footer_list {
+    margin-right: 100px;
+    padding: 0;
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.li_titulo {
+    font-size: 20px;
+    font-family: serif, sans-serif, monospace;
+    color: #e41680;
+    list-style-type: none;
+    margin: 30px 0px 15px 0px;
+}
+
+.li_conteudo {
+    font-size: 16px;
+    font-family: serif, sans-serif, monospace;
+    color: #f48ca7;
+    list-style-type: none;
+    margin: 1px 0px;
+}
+
+a {
+    color: inherit;
+}
+</style>

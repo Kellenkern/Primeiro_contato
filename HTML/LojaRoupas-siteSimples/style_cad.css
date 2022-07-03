@@ -1,0 +1,196 @@
+
+<style>
+body{
+	background-color: #fff3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: #fff3f3;
+    font: 16 "calibri";
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+}
+
+.search {
+    width: 250px;
+    position: relative;
+}
+
+.input_search {
+    width: 100%;
+}
+
+.button_submit {
+    background-color: #FFF;
+    border-width: 1.7px;
+    width: 10%;
+    position: absolute
+}
+
+.item_img {
+    margin-left: -150px;
+}
+
+.wishlist_coração:hover {
+    transform: scale(1.3);
+}
+
+.coracao {
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu{
+    margin: 0;
+    padding: 10px;
+    background-color: #f48ca7;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: Space-evenly;
+    list-style:none;
+}
+
+.menu li{
+    position:relative; 
+    float:left;     
+}
+
+.menu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 40;
+    color:#fff3f3;
+    text-decoration:none;
+    padding: 10px;   
+    display:block;
+}
+
+.menu li a:hover{
+    background:#fff3f3; 
+    color: #f48ca7; 
+}
+
+.menu li ul{
+    position:absolute;
+    top:38px;
+    left:0;
+    background-color:#f48ca7;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    display:block;
+    width:250px;
+}
+            .background_cad {
+                background-color: #ffd6d6; 
+                width: 500px;
+                min-height: 560px;
+                margin: 0px auto;
+                position: relative;
+            }
+            .titulo{
+                font-size: 48px;
+                color: #f48ca7;
+                padding: 2px 0 10px 0;
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            .titulo:after{
+                content: ' ';
+                display: block;
+                width: 100%;
+                height: 2px;
+                margin-top: 10px;
+                background: -webkit-linear-gradient(left, #ffd6d6 0%,#f8baca 20%,#272257 53%,#f8baca 79%,#ffd6d6 100%); 
+                background: linear-gradient(left, #ffd6d6 0%,#f8baca 20%,#272257 53%,#f8baca 79%,#ffd6d6 100%); 
+            }
+            label {
+                color: #272257;
+                position: relative;
+            }
+            ::-webkit-input-placeholder{
+                color: #bebcbc;
+                font-style: italic;
+            }
+            section input:not([type="checkbox"]),.link_login {
+                width: 85%;
+                margin-top: 1px;
+                padding: 10px;
+                border: 1.5px solid #f48ca7;
+                -webkit-border-radius:5px;
+                border-radius: 5px;
+            }
+            .link_login {
+                text-align: center;
+                cursor: pointer;
+                background-color: #272257;
+            }
+            #cadastro {
+                width: 88%;
+                padding: 18px 6% 60px 6%;
+                margin: 30px 0 35px 0px;
+                border: 1px solid #f48ca7;
+            }
+
+            input[type="submit"], input[type="reset"], .link_login {
+                cursor: pointer;
+                background-color: #272257;
+                padding: 10px 0px;
+                color: #ffd6d6;
+                font-size: 18px;
+                border: 1px solid #f48ca7;
+                margin-bottom: 5px;
+                border-radius: 5px;
+            }
+            .fazer_login {
+                text-decoration: none;
+                color: #ffd6d6;
+            }
+            .footer  {
+                background-color: #ffd6d6;
+            }
+            .footer_list{
+                margin-right: 100px;
+                padding: 0; 
+                display: flex;
+                align-items: ;
+                justify-content: space-between;
+                list-style-type: none;
+            }
+            .li_titulo {
+                font-size: 20px;
+                font-family: serif, sans-serif, monospace;
+                color: #e41680;
+                list-style-type: none;
+                margin: 30px 0px 15px 0px;
+            }
+            .li_conteudo {
+                font-size: 16px;
+                font-family: serif, sans-serif, monospace;
+                color: #f48ca7;
+                list-style-type: none;
+                margin: 1px 0px;
+            }
+            a { 
+                color: inherit; 
+            } 
+        </style>
